@@ -38,6 +38,8 @@ The steps are as follows:
     * Subsequent edits are made with creator feedback
     * Data package is approved by the creator
     * Data package is uploaded to the live repository
+
+### Non-tabular datasets (images, audio, very large datasets, etc)
     
 ### Notes on revising older datasets.
 
