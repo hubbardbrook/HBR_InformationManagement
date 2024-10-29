@@ -1,7 +1,8 @@
 ---
 # HBR Data Package Cookbook: a step-by-step guide to building HBR data packages for EDI
 ### Overview
-The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. With the availability 
+The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published
+in the [Environmental Data Initiative Repository (EDI)](https://edirepository.org). With the availability 
 of EDI's ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.
 ### Database and File access
 The working directory for package development is on the HBR-IM desktop (system name = gromit; linux OS; HBR-IM root directory = gromit:/d1/proj/hbrook/HBRIM/data).  
