@@ -1,6 +1,6 @@
 # Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan
 
-Mary Martin,HBR Information Manager
+Mary Martin, HBR Information Manager
 
 Earth Systems Research Center
 
