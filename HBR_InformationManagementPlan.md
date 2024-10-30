@@ -1,4 +1,4 @@
-##Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan
+# Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan
 
 Mary Martin,HBR Information Manager
 
@@ -12,7 +12,7 @@ Durham, NH 03824
 
 Updated: May 2024
 
-###Table of Contents
+## Table of Contents
 
 [1 Introduction 2](#introduction)
 
@@ -63,8 +63,6 @@ Updated: May 2024
 
 [8 Appendix 1. ESRC/UNH Computing Facilities
 9](#appendix-1.-esrcunh-computing-facilities)
-
-#  {#section .unnumbered}
 
 # Introduction
 
@@ -338,8 +336,8 @@ development and the Hubbard Brook website.
 
 Table 1. Features of HBR Information Management System
 
-  ------------------------------------------------------- -----------------------------------------------
-  **Feature**                                             **Details, software, resources**
+|   **Feature**                                        |   **Details, software, resources**               |
+|------------------------------------------------------|--------------------------------------------------|
 
   Website:                                                WordPress, html, css, php, xslt, javascript,
   [https://hubbardbrook.org](https://hubbardbrook.org/)   apache, piwigo
