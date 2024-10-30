@@ -1,6 +1,13 @@
 NAME,
 
 Welcome to the Hubbard Brook Community!
+
+As the Hubbard Brook LTER Information Manager, I'm here to support you throughout your time at our site and to make
+the process of managing and publishing your data as smooth as possible. As you may already know, we publish our data
+in the [Environmental Data Initiative Repository (EDI)](https://edirepository.org). You can access HB data by visiting EDI, 
+and also through the data catalog at [https://hubbardbrook.org](https://hubbardbrook.org).  Some quick tips on navigating the
+repository can be found here (LINK to small slide deck with screen shots).
+
 You have been added to the HB Listserv [general, grad].
 
 If you would like to have a profile page on the Hubbard Brook website,
