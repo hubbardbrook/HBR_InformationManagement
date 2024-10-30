@@ -338,11 +338,9 @@ Table 1. Features of HBR Information Management System
 
 |   **Feature**                                        |   **Details, software, resources**               |
 |------------------------------------------------------|--------------------------------------------------|
-
-  Website:                                                WordPress, html, css, php, xslt, javascript,
+|  Website:                                            |   WordPress, html, css, php, xslt, javascript,   |
   [https://hubbardbrook.org](https://hubbardbrook.org/)   apache, piwigo
-
-  Bibliography                                            Zotero, Zotpress wordpress plugin
+|  Bibliography                                        |   Zotero, Zotpress wordpress plugin              |
 
   Data Catalog                                            EDI data repository, local WordPress gateway to
                                                           EDI HBR data, and local mirror of all HBR
