@@ -35,8 +35,8 @@ Institution Homepage Link:
 
 For Grad Student profiles:
 
-*Advisor:
+ *Advisor:
 
-*MS or PhD:
+ *MS or PhD:
 
 
