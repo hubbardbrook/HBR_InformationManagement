@@ -1,5 +1,5 @@
 ---
-# HBR Data Package Cookbook: a step-by-step guide to building HBR data packages for EDI
+# A Data Package Cookbook: a step-by-step guide to building HBR data packages for EDI
 ## Overview
 The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published
 in the [Environmental Data Initiative Repository (EDI)](https://edirepository.org). With the availability 
