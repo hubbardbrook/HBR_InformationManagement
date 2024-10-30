@@ -412,8 +412,7 @@ stewards of these samples, our highest priorities are:
 
 3.  inform principal investigators of interest in using them;
 
-4.  to acknowledge the appropriate funding sources for their original
-    > collection.
+4.  to acknowledge the appropriate funding sources for their original collection.
 
 Details on the subsampling of archived material can be found on the
 sample request form:
@@ -427,29 +426,29 @@ Requirements for acceptance of samples into the archive:
 1.  Adequate documentation must accompany physical samples.
 
 2.  Samples are stored in either an unheated large room or a smaller
-    > room that is heated to just above freezing. The contributing
-    > scientist is responsible for deciding that these conditions are
-    > suitable for his/her samples.
+   room that is heated to just above freezing. The contributing
+   scientist is responsible for deciding that these conditions are
+   suitable for his/her samples.
 
 3.  Soil samples must be air or oven-dried and stored in plastic or
-    > glass bottles with screw caps to ensure a tight seal. Cardboard is
-    > not permitted.
+   glass bottles with screw caps to ensure a tight seal. Cardboard is
+   not permitted.
 
 4.  Vegetation samples should be dried, ground and stored in clear
-    > plastic or glass containers.
+   plastic or glass containers.
 
 5.  Water samples must be stored in plastic bottles and will be accepted
-    > either treated, or not. If treated, the investigator must specify
-    > the type and concentration used.
+    either treated, or not. If treated, the investigator must specify
+    the type and concentration used.
 
 6.  All tree logs, cookies and cores should be air-dried and can be
-    > stored in cardboard boxes or arranged in a manner that will allow
-    > for air to flow between individual samples. Tree cores should be
-    > mounted or stored in straws.
+    stored in cardboard boxes or arranged in a manner that will allow
+    for air to flow between individual samples. Tree cores should be
+    mounted or stored in straws.
 
 7.  Samples that are considered toxic may be rejected. The data
-    > management committee may confer with the SAC about important, but
-    > toxic samples requiring storage.
+    management committee may confer with the SAC about important, but
+    toxic samples requiring storage.
 
 # Bibliography
 
