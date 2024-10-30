@@ -1,4 +1,4 @@
-**Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan**
+##Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan
 
 Mary Martin,HBR Information Manager
 
