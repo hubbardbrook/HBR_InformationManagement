@@ -342,6 +342,14 @@ Table 1. Features of HBR Information Management System
 |  Backup                                              |    BackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site
 |  Data management                                     |    R, LibreOffice, QGIS, MySQL, PostgreSQL, git|
 
+## Account access
+- IM desktop and server
+- UNH HB sharepoint
+- zotero
+- Databases
+- piwigo
+- EDI/ezEML
+  
 # Website
 
 The HBR website ([https://hubbardbrook.org](https://hubbardbrook.org/))
