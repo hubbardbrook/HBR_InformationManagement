@@ -8,10 +8,11 @@ in the [Environmental Data Initiative Repository (EDI)](https://edirepository.or
 and also through the data catalog at [https://hubbardbrook.org](https://hubbardbrook.org).  Some quick tips on navigating the
 repository can be found here (LINK to small slide deck with screen shots).
 
-You have been added to the HB Listserv [general, grad].
+You have been added to the HB Listserv [general, grad], where you will see occasional messages about events and opportunities
+at Hubbard Brook and the LTER Network.
 
 If you would like to have a profile page on the Hubbard Brook website,
-Please send met the following information.
+please fill out the items in the list below and I will set that up for you.
 
 Mary
 
