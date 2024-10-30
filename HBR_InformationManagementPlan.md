@@ -338,25 +338,13 @@ Table 1. Features of HBR Information Management System
 
 |   **Feature**                                        |   **Details, software, resources**               |
 |------------------------------------------------------|--------------------------------------------------|
-|  Website:                                            |   WordPress, html, css, php, xslt, javascript,   |
-  [https://hubbardbrook.org](https://hubbardbrook.org/)   apache, piwigo
+|  Website: [https://hubbardbrook.org](https://hubbardbrook.org/)                                          |   WordPress, html, css, php, xslt, javascript, apache, piwigo  |
 |  Bibliography                                        |   Zotero, Zotpress wordpress plugin              |
-
-  Data Catalog                                            EDI data repository, local WordPress gateway to
-                                                          EDI HBR data, and local mirror of all HBR
-                                                          content on EDI. Extensive use of EDIutils R
-                                                          package for generating reports.
-
-  Metadata                                                ezEML, PostgreSQL, EML R package, EML2.1
-
-  Computer Hardware                                       Dell Poweredge R510, desktop and laptop linux
-                                                          systems.
-
-  Backup                                                  BackupPC, rsnapshot, daily, weekly and monthly
-                                                          backups, on and off-site
-
-  Data management                                         R, LibreOffice, QGIS, MySQL, PostgreSQL, git
-  ------------------------------------------------------- -----------------------------------------------
+|  Data Catalog                                        |   EDI data repository, local WordPress gateway to EDI HBR data, EDIutils R|
+|  Metadata                                            |   ezEML, PostgreSQL, EML R package, EML2.1
+|  Computer Hardware                                   |   Dell Poweredge R510, desktop and laptop linux systems.
+|  Backup                                              |    BackupPC, rsnapshot, daily, weekly and monthly backups, on and off-site
+|  Data management                                     |    R, LibreOffice, QGIS, MySQL, PostgreSQL, git|
 
 # Website
 
