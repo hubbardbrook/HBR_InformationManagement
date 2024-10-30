@@ -4,9 +4,10 @@
 The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published
 in the [Environmental Data Initiative Repository (EDI)](https://edirepository.org). With the availability 
 of EDI's ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.
-## Database and File access
+## Data package development workspace
 The working directory for package development is on the HBR-IM desktop (system name = gromit; linux OS; data package development root directory = gromit:/d1/proj/hbrook/HBRIM/data).  
-Assets for each data package are in folders named hbr[pkgid] in the ezEML folder. 
+Assets for each data package are in folders named hbr[pkgid] in the ezEML folder. While most of the workflow occurs in the ezEML environment, this local filesytem is used to
+handle dataset assets submitted to IM (metadata templates, datafiles, etc). The completed ezEML packages are downloaded (as zip), for subsequent upload to the EDI staging and production servers.
 ## Step-by-Step Data Package Workflow
 In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. 
 The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. 
