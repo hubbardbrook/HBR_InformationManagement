@@ -1,13 +1,13 @@
 ---
 # HBR Data Package Cookbook: a step-by-step guide to building HBR data packages for EDI
-### Overview
+## Overview
 The purpose of this document is to capture details of the data package development workflow that is currently in use at Hubbard Brook. HBR data is published
 in the [Environmental Data Initiative Repository (EDI)](https://edirepository.org). With the availability 
 of EDI's ezEML data package builder application (adopted by HBR in 2024), this once long and complicated process has been greatly simplified.
-### Database and File access
+## Database and File access
 The working directory for package development is on the HBR-IM desktop (system name = gromit; linux OS; HBR-IM root directory = gromit:/d1/proj/hbrook/HBRIM/data).  
 Assets for each data package are in folders named hbr[pkgid] in the ezEML folder. 
-### Step-by-Step Data Package Workflow
+## Step-by-Step Data Package Workflow
 In 2024, HBR fully adopted the EDI ezEML workflow for data package development. All data packages are developed under the EDI HBR user account. 
 The division of effort varies with the nature of the data package. Graduate students are encouraged to collaborate with the IM online within the ezEML environment. 
 This serves as a way to directly input metadata without first populating a template, reduces IM time on some data packages, and is an important skill-builder for HBR graduate students. 
@@ -40,9 +40,17 @@ The steps are as follows:
     * Data package is approved by the creator
     * Data package is uploaded to the live repository
 
-### Non-tabular datasets (images, audio, very large datasets, etc)
+## Non-tabular datasets (images, audio, very large datasets, etc)
+Hubbard Brook has published a number of datasets that contain zip files of pdfs, images, audio files, etc.
+Guidance for preparing these special case datasets can be found in the 
+[EML Best Practices document](https://ediorg.github.io/data-package-best-practices/data-package-design-for-special-cases.html).
+
+### Large Datasets
+In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max). 
+At the current time, large datasets are staged on a UNH server with the distribution URL set to that location. In some cases
+we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.
     
-### Notes on revising older datasets.
+## Notes on revising older datasets.
 
 When earlier data packages are revised, the starting point is an ezEML fetch of the published data package. 
 Assets for earlier data packages developed can be found in either the 'EMLassemblyline' or 'legacy' folders, although those files should rarely 
