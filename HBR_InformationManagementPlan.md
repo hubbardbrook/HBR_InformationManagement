@@ -1,14 +1,10 @@
 # Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan
 
-Mary Martin, HBR Information Manager
+Mary Martin, HBR Information Manager [mary.martin@unh.edu]
 
-Earth Systems Research Center
-
-University of New Hampshire
-
+Earth Systems Research Center,
+University of New Hampshire 
 Durham, NH 03824
-
-[mary.martin@unh.edu]{.underline}
 
 Updated: May 2024
 
