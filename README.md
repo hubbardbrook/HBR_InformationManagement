@@ -60,3 +60,4 @@ attention will be:
     * Increment the packageId revision number.
     * Use re-upload datatable if revision includes new or modified data. This all goes well if the table is identical. 
     If there are new columns, upload as a new table and clone metadata from the original, then define any new columns.
+    If the dataset was prepared in EMLAL, clear min/max bounds. 
