@@ -46,10 +46,12 @@ Guidance for preparing these special case datasets can be found in the
 [EML Best Practices document](https://ediorg.github.io/data-package-best-practices/data-package-design-for-special-cases.html).
 
 ### Large Datasets
-In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max). 
+In some of these cases, the data entities are quite large and cannot be uploaded with the browser interface (500Mb max), but are within
+the size cap for online EDI data storage. 
 At the current time, large datasets are staged on a UNH server with the distribution URL set to that location. In some cases
 we develop packages using a smaller placeholder file so that we do not overload storage on the ezEML platform or portal-s staging area.
-    
+Datasets exceeding the 100Gb threshold are deemed "too large for HTTP” and must be prepared as offline data entities.
+
 ## Notes on revising older datasets.
 
 When earlier data packages are revised, the starting point is an ezEML fetch of the published data package. 
