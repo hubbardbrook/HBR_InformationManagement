@@ -248,9 +248,8 @@ coverage, funding, etc). EzEML also supports a \'collaboration\' mode,
 where IM and data creators can work together to complete the full
 metadata documentation necessary for the repository.
 
-A separate document, ***Hubbard Brook Ecosystem Study Information
-Management: Data Package Workflow***, describes the data package
-development workflow in detail.
+A separate document, [HBR Data Package Development](https://github.com/hubbardbrook/HBR_InformationManagement/blob/main/DataPackageDevelopment.md), 
+describes the data packagedevelopment workflow in detail.
 
 ## Data Quality Control
 
