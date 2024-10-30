@@ -1,11 +1,6 @@
-convert docx file to md and add here
-**Hubbard Brook Long Term Ecological Research:**
+**Hubbard Brook Long Term Ecological Research: Information Management Overview and Plan**
 
-**Information Management Overview and Plan**
-
-Mary Martin
-
-HBR Information Manager
+Mary Martin,HBR Information Manager
 
 Earth Systems Research Center
 
@@ -15,9 +10,9 @@ Durham, NH 03824
 
 [mary.martin@unh.edu]{.underline}
 
-Prepared: May 2024
+Updated: May 2024
 
-Table of Contents
+###Table of Contents
 
 [1 Introduction 2](#introduction)
 
