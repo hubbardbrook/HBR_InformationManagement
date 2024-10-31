@@ -47,15 +47,15 @@ library(httr)
 
 library(readxl)
 
-\# Function to read Excel file from SharePoint URL
+# Function to read Excel file from SharePoint URL
 
 read_sharepoint_excel \<- function(url) {
 
-\# Download the file
+# Download the file
 
 response \<- GET(url, config(ssl_verifypeer = FALSE))
 
-\# Check if the download was successful
+# Check if the download was successful
 
 if (status_code(response) != 200) {
 
