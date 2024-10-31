@@ -1,10 +1,10 @@
-Hubbard Brook Local Data Catalog A step-by-step guide
+# Hubbard Brook Local Data Catalog A step-by-step guide
 
 Updated 10/18/2024
 
 mary.martin@unh.edu
 
-# Overview
+## Overview
 
 The purpose of this document is to capture details of the workflow to
 build a data catalog table that is used on the hubbardbrook.org website.
@@ -14,20 +14,20 @@ with enhanced data package details. The latter improve the user
 experience for data searchers by categorizing HBR data and adding robust
 LTER core area tags.
 
-# Database and File access
+## Database and File access
 
 Access to dataset details is provided by the LTER PASTA API via the
 EDIutils R package. The enhanced table resides on the HubbardBrook
 sharepoint site (HBR IM admin, UNH).
 
-# Step-by-Step Catalog Workflow
+## Step-by-Step Catalog Workflow
 
 -   Run the code in Appendix B (dataCat.R)
 -   log in to the wordpress site
 -   open the data catalog table
 -   upload wptablefeed.csv to replace existing version
 
-# APPENDIX A -- Code to read from the sharepoint file:
+## APPENDIX A -- Code to read from the sharepoint file:
 
 Code available on HubbardBrook sharepoint
 
