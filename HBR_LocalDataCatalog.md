@@ -64,19 +64,19 @@ status_code(response))
 
 }
 
-\# Create a temporary file
+# Create a temporary file
 
 temp_file \<- tempfile(fileext = \".xlsx\")
 
-\# Write the content to the temporary file
+# Write the content to the temporary file
 
 writeBin(content(response, \"raw\"), temp_file)
 
-\# Read the Excel file
+# Read the Excel file
 
 df \<- read_excel(temp_file)
 
-\# Remove the temporary file
+# Remove the temporary file
 
 unlink(temp_file)
 
@@ -84,16 +84,16 @@ return(df)
 
 }
 
-\# URL of your SharePoint Excel file
+# URL of your SharePoint Excel file
 
 url \<-
 \"https://universitysystemnh.sharepoint.com/:x:/t/HubbardBrook/EXFAJdG37VxOsrGI5jMhxmcBc1vTpUnZw1WPtiP3Q5Mc4A?download=1\"
 
-\# Read the Excel file
+# Read the Excel file
 
 df \<- data.frame(read_sharepoint_excel(url))
 
-\# subset to just cataloged datasets, save as df \'ps\' (for package
+# subset to just cataloged datasets, save as df \'ps\' (for package
 state)
 
 ps=df\[which(df\$status==\"cataloged\"),\]
@@ -103,38 +103,38 @@ ps=df\[which(df\$status==\"cataloged\"),\]
 ## dataCat.R 
 
 ```{
-\#############################################
+#############################################
 
-\# dataCat.R
+# dataCat.R
 
-\#
+#
 
-\# mary.martin@unh.edu 20241016
+# mary.martin@unh.edu 20241016
 
-\# Purpose: build a datatable for the HB website local data catalog
+# Purpose: build a datatable for the HB website local data catalog
 
-\# This is a revised script to generate the data catalog file on the
+# This is a revised script to generate the data catalog file on the
 wordpress site
 
-\# this revision now runs on all publicly available data - no pw
+# this revision now runs on all publicly available data - no pw
 protected databases for local info
 
-\# Inputs are - sharepoint xlsx file that tracks data status locally and
+# Inputs are - sharepoint xlsx file that tracks data status locally and
 provides additional info to enhance user
 
-\# experience in searching for data
+# experience in searching for data
 
-\# Requirements: The following script is sourced and should be located
+# Requirements: The following script is sourced and should be located
 in the same folder as this main script: FetchSharepointDataInventory.R
 
-\# Usage: Run this script, then move the wptablefeed.csv file to the
+# Usage: Run this script, then move the wptablefeed.csv file to the
 website and updated the table to refresh to this new version
 
-\# Note: once this runs a few times and I gain a little confidence, I
+# Note: once this runs a few times and I gain a little confidence, I
 will consider adding a command to ftp directly to wordpress to refresh
 the site
 
-\#############################################
+#############################################
 
 library(EDIutils)
 
@@ -146,20 +146,20 @@ library(\"stringr\")
 
 library(xml2)
 
-\# set the working directory to the location of the script
+# set the working directory to the location of the script
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()\$path))
 
-\# source the script that gets local package info from sharepoint
+# source the script that gets local package info from sharepoint
 spreadsheet
 
-\# returns dataframe ps(package state)
+# returns dataframe ps(package state)
 
 source(\"FetchSharepointDataInventory.R\")
 
-\# Fetch the basic eml info directly from EDI for each package
+# Fetch the basic eml info directly from EDI for each package
 
-\# consider getting abstract and making that display as a hoverover on
+# consider getting abstract and making that display as a hoverover on
 the website table
 
 res\<-search_data_packages(
@@ -173,13 +173,13 @@ res\$Title=gsub(\"\[\\r\\n\]\", \" \", res\$Title)
 
 res\$Title=gsub(\"\\\\s+\", \" \", res\$Title)
 
-\# extract begin and end YEAR
+# extract begin and end YEAR
 
 res\$startYear=as.POSIXlt(as.Date(res\$begindate))\$year + 1900
 
 res\$endYear=as.POSIXlt(as.Date(res\$enddate))\$year + 1900
 
-\# if dataset has start/end dates, create column that shows them with
+# if dataset has start/end dates, create column that shows them with
 dash separator
 
 res\$yearrange=\"NA\"
@@ -194,7 +194,7 @@ res\$yearrange\[index\] = \" \"
 
 res\$edilink=paste0(\"https://portal.edirepository.org/nis/mapbrowse?packageid=\",res\$PackageId)
 
-\# Fetch the pesky keywords and authors as xml so you can insert a
+# Fetch the pesky keywords and authors as xml so you can insert a
 separator
 
 k\<-search_data_packages(
@@ -222,20 +222,20 @@ for (doc in xml_find_all(k, \".//document\")) {
 
 print(doc)
 
-\# Get the keywords from the current doc
+# Get the keywords from the current doc
 
 keyword_elements \<- xml_find_all(doc, \".//keyword\")
 
 keyword_strings \<- xml_text(keyword_elements)
 
-\# This doesn\'t get the authors where HBWaTER and USFS are institution
+# This doesn\'t get the authors where HBWaTER and USFS are institution
 authors.
 
-\# see solution below to get those from cite.edirepository.org
+# see solution below to get those from cite.edirepository.org
 
 kw\[count,3\] \<- paste(keyword_strings, collapse = \";\")
 
-\# Get the authors from the current doc
+# Get the authors from the current doc
 
 author_elements \<- xml_find_all(doc, \".//author\")
 
