@@ -31,7 +31,7 @@ in our data catalog (LTER Core Research Area, HBR significant data status)
 -   open the data catalog table
 -   upload wptablefeed.csv to replace existing version
 
-## APPENDIX A -- Code to read from the sharepoint file:
+## APPENDIX A -- Code to build the local HBR data catalog:
 
 ## FetchSarepointDataInventory.R
 
@@ -98,7 +98,6 @@ state)
 
 ps=df\[which(df\$status==\"cataloged\"),\]
 
-# APPENDIX B
 }
 ```
 ## dataCat.R 
