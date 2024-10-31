@@ -33,7 +33,8 @@ in our data catalog (LTER Core Research Area, HBR significant data status)
 
 ## APPENDIX A -- Code to read from the sharepoint file:
 
-Code available on HubbardBrook sharepoint
+## FetchSarepointDataInventory.R
+
 ```
 {
 \##########################################
@@ -100,7 +101,8 @@ ps=df\[which(df\$status==\"cataloged\"),\]
 # APPENDIX B
 }
 ```
-Code available on HubbardBrook sharepoint
+## dataCat.R 
+
 ```{
 \#############################################
 
