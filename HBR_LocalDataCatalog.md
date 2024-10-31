@@ -101,7 +101,7 @@ ps=df\[which(df\$status==\"cataloged\"),\]
 }
 ```
 Code available on HubbardBrook sharepoint
-
+```{
 \#############################################
 
 \# dataCat.R
@@ -354,3 +354,4 @@ wptablefeed.order=wptablefeed\[order(wptablefeed\$pub_notes),\]
 
 write.table(wptablefeed.order,\"wptablefeed.csv\",row.names=FALSE,sep=\",\",na=\"
 \")
+}'''
