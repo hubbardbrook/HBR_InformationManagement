@@ -19,7 +19,10 @@ LTER core area tags.
 
 Access to dataset details is provided by the LTER PASTA API via the
 EDIutils R package. The enhanced table resides on the HubbardBrook
-sharepoint site (HBR IM admin, UNH).
+sharepoint site (HBR IM admin, UNH). The sharepoint data inventory file is
+maintained to track status of each dataset and to provide additional information that
+is not included in the formal metadata or may be lacking in very old datasets but is useful
+in our data catalog (LTER Core Research Area, HBR significant data status)
 
 ## Step-by-Step Catalog Workflow
 
