@@ -26,7 +26,7 @@ in our data catalog (LTER Core Research Area, HBR significant data status)
 
 ## Step-by-Step Catalog Workflow
 
--   Run the code in Appendix B (dataCat.R)
+-   Run the code in Appendix A (dataCat.R)
 -   log in to the wordpress site
 -   open the data catalog table
 -   upload wptablefeed.csv to replace existing version
