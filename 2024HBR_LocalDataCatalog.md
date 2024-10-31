@@ -7,7 +7,8 @@ mary.martin@unh.edu
 ## Overview
 
 The purpose of this document is to capture details of the workflow to
-build a data catalog table that is used on the hubbardbrook.org website.
+build a data catalog table that is used on the [Hubbard Brook Data Catalog](https://hubbardbrook.org/data-catalog) displayed
+on our website.
 This workflow has been reconfigured from earlier versions to now read
 only from publicly available sources - EDI and a public sharepoint file
 with enhanced data package details. The latter improve the user
