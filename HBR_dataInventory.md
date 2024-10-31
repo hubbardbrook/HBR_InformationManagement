@@ -2,7 +2,11 @@
 # HBR Data Inventory
 
 A spreadsheet listing a complete inventory of HBR data, including datasets anticipated and in draft format, is maintained
-on the UNH HubbardBrook sharepoint site. Access to this sheet is shared by request.
+on the UNH HubbardBrook sharepoint site. Access to this sheet is shared by request. This is used to build the local data catalog by
+merging with content from the LTER PASTA API (joined on dataset_archive_id). It is also used by IM as a local record of what is published, as well
+as those datasets anticipated, in draft format, or staged for review. the emlWorkflow is helpful in identifying datasets that could be
+updated to include eml elements not available at time of publication (improved funding metadata, general annotations, qudt unit annotations).
+The checkbox columns for HBR_v were used to modify our data table listing (proposal supplemental document), by highlighting data used in papers during that funding cycle and dta used in the top10 publications that we highlighted in the proposal.
 
 - DataSetID: just the pkg number
 - dataset_archive_id: packageId (knb-lter-hbr.XXX)
