@@ -10,55 +10,52 @@ Updated: May 2024
 
 ## Table of Contents
 
-[1 Introduction 2](#introduction)
+[1 Introduction](#introduction)
 
-[1.1 Scope of Document 2](#scope-of-document)
+[1.1 Scope of Document](#scope-of-document)
 
 [1.2 History of IM at the Hubbard Brook Experimental Forest
-2](#history-of-im-at-the-hubbard-brook-experimental-forest)
+](#history-of-im-at-the-hubbard-brook-experimental-forest)
 
-[1.3 Governance 3](#governance)
+[1.3 Governance](#governance)
 
-[1.4 Research Approval Committee 3](#research-approval-committee)
+[1.4 Research Approval Committee](#research-approval-committee)
 
-[2 Personnel 4](#personnel)
+[2 Personnel](#personnel)
 
-[3 Data Packages 4](#data-packages)
+[3 Data Packages](#data-packages)
 
-[3.1 Overview 4](#overview)
+[3.1 Overview](#overview)
 
-[3.2 Data Holdings 4](#data-holdings)
+[3.2 Data Holdings](#data-holdings)
 
-[3.3 Metadata Standards 4](#metadata-standards)
+[3.3 Metadata Standards](#metadata-standards)
 
-[3.4 Data Package Development 5](#data-package-development)
+[3.4 Data Package Development](#data-package-development)
 
-[3.5 Data Quality Control 5](#__RefHeading___Toc1017_120935078)
+[3.5 Data Quality Control](#__RefHeading___Toc1017_120935078)
 
-[3.6 Access Policy 6](#access-policy)
+[3.6 Access Policy](#access-policy)
 
-[3.7 Data Access 6](#data-access)
+[3.7 Data Access](#data-access)
 
-[4 IT Resources 6](#it-resources)
+[4 IT Resources](#it-resources)
 
-[5 Website 7](#website)
+[5 Website](#website)
 
-[6 Sample Archive 8](#sample-archive)
+[6 Sample Archive](#sample-archive)
 
-[6.1 Samples 8](#samples)
+[6.1 Samples](#samples)
 
-[6.2 Sample Archive Subsampling Policy
-8](#sample-archive-subsampling-policy)
+[6.2 Sample Archive Subsampling Policy](#sample-archive-subsampling-policy)
 
-[6.3 Directions for Sample Submission
-8](#directions-for-sample-submission)
+[6.3 Directions for Sample Submission](#directions-for-sample-submission)
 
-[6.4 Future direction 9](#__RefHeading___Toc29286_1180241040)
+[6.4 Future direction](#__RefHeading___Toc29286_1180241040)
 
-[7 Bibliography 9](#bibliography)
+[7 Bibliography](#bibliography)
 
-[8 Appendix 1. ESRC/UNH Computing Facilities
-9](#appendix-1.-esrcunh-computing-facilities)
+[8 Appendix 1. ESRC/UNH Computing Facilities](#appendix-1.-esrcunh-computing-facilities)
 
 # Introduction
 
