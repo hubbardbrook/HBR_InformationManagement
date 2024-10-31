@@ -1,4 +1,4 @@
-# Hubbard Brook Local Data Catalog A step-by-step guide
+# A Data Catalog Cookbook: A step-by-step guide to development of the HBR data catalog
 
 Updated 10/18/2024
 
