@@ -255,23 +255,23 @@ count=count+1
 
 }
 
-\# tidy up keywords where some strings have newlines or consec white
+# tidy up keywords where some strings have newlines or consec white
 spaces
 
 kw\$Keywords=gsub(\"\[\\r\\n\]\", \" \", kw\$Keywords)
 
 kw\$Keywords=gsub(\"\\\\s+\", \" \", kw\$Keywords)
 
-\# merge the tidier keywords with the main table
+# merge the tidier keywords with the main table
 
 resj=merge(res,kw, by = \"PackageId\")
 
-\# get the dataset citations so that you have a nicer listing of authors
+# get the dataset citations so that you have a nicer listing of authors
 
-\# you could probably do that where I do the keywords now from xml, but
+# you could probably do that where I do the keywords now from xml, but
 it doesn\'t
 
-\# populate the records where author is an institution (USFS and
+# populate the records where author is an institution (USFS and
 HBWaTER)
 
 for(i in 1:dim(resj)\[1\]){
@@ -295,13 +295,13 @@ resj\[i,\"Originators\"\]=c\$authors
 
 }
 
-\# FetchSharepointDataInventory returns ps dataframe (aka package state
+# FetchSharepointDataInventory returns ps dataframe (aka package state
 in the originalmetabase database)
 
-\# add data category based on sort order codes in ps (local package
+# add data category based on sort order codes in ps (local package
 state table)
 
-\# apply category name to sort order values
+# apply category name to sort order values
 
 ps\$category=0
 
@@ -333,25 +333,25 @@ index=which(substr(ps\$pub_notes,1,1)==9)
 
 ps\$category\[index\]=\"Spatial Datasets\"
 
-\# subset out the columns that are to be used in the datatable
+# subset out the columns that are to be used in the datatable
 
 pscat=ps\[,c(\"dataset_archive_id\",\"category\",\"ltercore\",\"pub_notes\")\]
 
-\# merge the EDI query dataframe with ps
+# merge the EDI query dataframe with ps
 
 m=merge(resj,pscat, by.x=\"id\",by.y=\"dataset_archive_id\")
 
-\##### Write out wordpress data table \#################
+##### Write out wordpress data table \#################
 
-\# pull out the columns needed for website table
+# pull out the columns needed for website table
 
 wptablefeed=m\[,c(\"PackageId\",\"Title\",\"Originators\",\"yearrange\",\"ltercore\",\"edilink\",\"category\",\"pub_notes\",\"Keywords\")\]
 
-\# sort packages based on pub_notes
+# sort packages based on pub_notes
 
 wptablefeed.order=wptablefeed\[order(wptablefeed\$pub_notes),\]
 
-\# write out the table
+# write out the table
 
 write.table(wptablefeed.order,\"wptablefeed.csv\",row.names=FALSE,sep=\",\",na=\"
 \")
