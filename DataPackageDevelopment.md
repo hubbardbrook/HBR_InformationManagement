@@ -55,7 +55,8 @@ Datasets exceeding the 100Gb threshold are deemed "too large for HTTP” and mus
 
 ## Notes on revising older datasets.
 
-When earlier data packages are revised, the starting point is an ezEML fetch of the published data package. 
+When earlier data packages are revised, the starting point is an ezEML fetch of the published data package. Steps are similar to those used for a new 
+dataset, but remember to increment the revision number.
 Assets for earlier data packages developed can be found in either the 'EMLassemblyline' or 'legacy' folders, although those files should rarely 
 be necessary once a data package is published in EDI.  
 
