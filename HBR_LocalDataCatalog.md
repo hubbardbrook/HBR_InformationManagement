@@ -32,16 +32,16 @@ in our data catalog (LTER Core Research Area, HBR significant data status)
 -   upload wptablefeed.csv to replace existing version
 
 ## APPENDIX A -- Code to build the local HBR data catalog:
+Will be setting this up in github to replace this snapshot here
 
 ## FetchSarepointDataInventory.R
 
-```
-{
-\##########################################
+{```
+##########################################
 
-\# FetchSharepointDataInventory.R
+# FetchSharepointDataInventory.R
 
-\##########################################
+##########################################
 
 library(httr)
 
