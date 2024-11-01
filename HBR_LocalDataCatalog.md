@@ -36,7 +36,7 @@ Will be setting this up in github to replace this snapshot here
 
 ## FetchSarepointDataInventory.R
 
-{```
+```{
 ##########################################
 
 # FetchSharepointDataInventory.R
